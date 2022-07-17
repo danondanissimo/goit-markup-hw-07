@@ -15,41 +15,41 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
 
   <body>
     <header>
       <div class="container nav">
         <nav class="nav">
-          <a href="./index.html" class="logo link"><span class="logo__span">Web</span>Studio</a>
-          <ul class="site-nav list">
-            <li class="site-nav__item item">
+          <a href="./index.html" class="logo"><span class="logo__span">Web</span>Studio</a>
+          <ul class="site-nav">
+            <li class="site-nav__item">
               <a
                 href="./index.html"
-                class="site-nav__link link site-nav__link--current site-nav__link--studio"
+                class="site-nav__link site-nav__link--current site-nav__link--studio"
                 >Студия</a
               >
             </li>
-            <li class="site-nav__item item">
-              <a href="./portfolio.html" class="site-nav__link link">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
-            <li class="site-nav__item item">
-              <a href="#" class="site-nav__link link">Контакты</a>
+            <li class="site-nav__item">
+              <a href="#" class="site-nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact-list list">
-          <li class="contact-list__item item">
-            <a href="mailto:info@devstudio.com" class="header__contacts contacts link"
-              ><svg class="mail-icon icon">
+        <ul class="contact-list">
+          <li class="contact-list__item">
+            <a href="mailto:info@devstudio.com" class="header__contacts contacts"
+              ><svg class="mail-icon">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="contact-list__item item">
-            <a href="tel:+380961111111" class="header__contacts contacts link"
-              ><svg class="phone-icon icon">
+          <li class="contact-list__item">
+            <a href="tel:+380961111111" class="header__contacts contacts"
+              ><svg class="phone-icon">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -132,7 +132,7 @@
         <div class="container">
           <!--Скрытый заголовок-->
           <h2 class="visually__hidden">Преимущества</h2>
-          <ul class="features__list list">
+          <ul class="features__list">
             <li class="features__item">
               <div class="features__icon-frame">
                 <svg class="features__icon">
@@ -187,7 +187,7 @@
       <section class="advantages">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="advantages__list list">
+          <ul class="advantages__list">
             <li class="advantages__item">
               <img src="./images/image1.jpg" alt="Сотрудник работает за планшетом" width="370" />
               <p class="advantages__overlay">Десктопные приложения</p>
@@ -215,7 +215,7 @@
       <section class="team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team__list list">
+          <ul class="team__list">
             <li class="team__item">
               <img
                 src="./images/product-designer.jpg"
@@ -225,7 +225,7 @@
               <div class="team__text">
                 <h3 class="team__staff">Игорь Демьяненко</h3>
                 <p class="team__role">Product Designer</p>
-                <ul class="social-networks list">
+                <ul class="social-networks">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link">
                       <svg class="social-networks__icon">
@@ -267,7 +267,7 @@
               <div class="team__text">
                 <h3 class="team__staff">Ольга Репина</h3>
                 <p class="team__role">Frontend Developer</p>
-                <ul class="social-networks list">
+                <ul class="social-networks">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link">
                       <svg class="social-networks__icon">
@@ -309,7 +309,7 @@
               <div class="team__text">
                 <h3 class="team__staff">Николай Тарасов</h3>
                 <p class="team__role">Marketing</p>
-                <ul class="social-networks list">
+                <ul class="social-networks">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link">
                       <svg class="social-networks__icon">
@@ -351,7 +351,7 @@
               <div class="team__text">
                 <h3 class="team__staff">Михаил Ермаков</h3>
                 <p class="team__role">UI Designer</p>
-                <ul class="social-networks list">
+                <ul class="social-networks">
                   <li class="social-networks__item">
                     <a href="" class="social-networks__link">
                       <svg class="social-networks__icon">
@@ -389,7 +389,7 @@
       <section class="clients">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="clients__list list">
+          <ul class="clients__list">
             <li class="clients__item">
               <a href="" class="clients__link"
                 ><svg class="clients__icon">
@@ -436,30 +436,28 @@
     <footer class="footer">
       <div class="container">
         <div>
-          <a href="./index.html" class="logo link"
+          <a href="./index.html" class="logo"
             ><span class="logo__span">Web</span
             ><span class="logo__span logo__span--footer">Studio</span></a
           >
           <address class="footer__address">
-            <ul class="footer__contact-list contact-list list">
-              <li class="contact-list__item--footer contact-list__item item">
+            <ul class="footer__contact-list contact-list">
+              <li class="contact-list__item--footer contact-list__item">
                 <a
                   href="https://goo.gl/maps/bSMqidBmeN5zZb8a9"
                   target="_blank"
                   rel="noopener nofollow noreferrer"
-                  class="location link"
+                  class="location"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="contact-list__item--footer contact-list__item item">
-                <a href="mailto:info@devstudio.com" class="footer__contacts contacts link"
+              <li class="contact-list__item--footer contact-list__item">
+                <a href="mailto:info@devstudio.com" class="footer__contacts contacts"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="contact-list__item--footer contact-list__item item">
-                <a href="tel:+380.961111111" class="footer__contacts contacts link"
-                  >+38 096 111 11 11</a
-                >
+              <li class="contact-list__item--footer contact-list__item">
+                <a href="tel:+380.961111111" class="footer__contacts contacts">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -467,7 +465,7 @@
 
         <div class="footer__join">
           <p class="footer__exhortation">присоединяйтесь</p>
-          <ul class="footer__social-networks social-networks list">
+          <ul class="footer__social-networks social-networks">
             <li class="social-networks__item">
               <a href="" class="social-networks__link--footer social-networks__link">
                 <svg class="social-networks__icon">
