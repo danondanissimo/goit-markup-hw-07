@@ -118,7 +118,7 @@ section {
   margin: 0;
 }
 
-.location, .site-nav__link, .contacts, .logo {
+.projects__link, .location, .site-nav__link, .contacts, .logo {
   text-decoration: none;
 }
 

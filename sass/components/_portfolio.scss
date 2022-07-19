@@ -85,6 +85,7 @@
 }
 
 .projects__link {
+    @extend %link;
     display: block;
 
     transition-property: box-shadow;
